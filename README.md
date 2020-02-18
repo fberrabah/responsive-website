@@ -1,6 +1,4 @@
-# Python3 : Gestionnaire de conférences
-
-Créer un gestionnaire de conférences en utilisant python3.
+# Python3 : Réaliser des interfaces responsives
 
 # Déroulement 
 Cette vous allez découvrir l’enjeu le plus important de la création d’interfaces graphiques: 
