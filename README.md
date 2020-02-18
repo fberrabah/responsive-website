@@ -34,6 +34,5 @@ Cette vous allez découvrir l’enjeu le plus important de la création d’inte
 
 # Ressources 
 
-- https://openclassrooms.com/en/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-
-css3
+- https://openclassrooms.com/en/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
 - https://www.w3schools.com/css/css_rwd_mediaqueries.asp
