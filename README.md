@@ -7,8 +7,6 @@ Cette vous allez découvrir l’enjeu le plus important de la création d’inte
   adaptées à leur écran. Il faut donc réussir à modifier son interface graphique selon la taille de 
   l’écran sur lequel on se trouve, on dit qu’on réalise un design responsive
 
-Spécifications fonctionnelles :
-
   Emmanuel (ou Emmanuelle à vous de choisir) Dupret a contacté l’agence dans laquelle vous 
   travaillez car elle un projet en tête depuis maintenant plusieurs années. Actuellement contrôleur/se 
   budgétaire pour le secteur public, Emmanuel/le est passionné/e par la pâtisserie et voudrait un jour 
