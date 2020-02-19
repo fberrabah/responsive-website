@@ -22,27 +22,24 @@
 
 <header>
   <div>
-    <i><img src="img/boulanger.jpg" alt="logo"></i>
+    <i><img class="logo"src="img/logo.png" alt="logo"></i>
     <i class="fas fa-users"></i>
-    <input type="search" placeholder="Rechercher" id="site-search" name="q"
+    <input class="tool" type="search" placeholder="Rechercher" id="site-search" name="q"
        aria-label="Search through site content">
-    <button>Search</button>  
+    <button class="toolsearch">Search</button>  
   </div>
   <div>
-    <ul id="borderBottom" class="marginNav nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Lien1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Lien2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Lien3</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Lien4</a>
-      </li>
-    </ul>
+    <nav>
+      <ul>
+        <li class="deroulant"><i class="fas fa-bars"></i>
+          <ul class="sous">
+            <li><a href="#">Lien1</a></li>
+            <li><a href="#">Lien2</a></li>
+            <li><a href="#">Lien3</a></li>
+            <li><a href="#">Lien4</a></li>
+          </ul>
+        </li>
+    <nav>
   </div>  
 </header>
 
@@ -52,10 +49,50 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div>
-    <h1>TITRE</h1>
-    <h2>SLOGAN</h2>
-  </div>
+  <article>
+    <div>
+      <h1>Boulangerie</h1>
+      <h2>ce beau Slogan</h2>
+    </div>
+  </article>
+  <section>
+    <div class="boutton">
+        <button></button><p></p>
+         <button></button><p></p>
+         <button></button><p></p>
+    </div>
+    <div>
+      <p>Une boulangerie est un type de commerce de détail de fabrication et de vente de pain. Elle est tenue par un boulanger et ses apprentis.</p>
+      <i><img class="phototext" src="img/pain1.jpg" alt="dupain"></i>
+    </div>
+  </section>
+  <section>
+    <div class= "artcl">
+      <h3>sous-titre</h3>
+      <article><h4>sous-titre</h4>
+          <img class="photoarticle" src="img/article1.jpg" alt="farine"></article>
+          <p>La farine est une poudre obtenue en broyant et en moulant des céréales </p>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="far fa-eye"></i>
+      <article><h4>sous-titre</h4>
+        <img class="photoarticle" src="img/article2.jpg" alt="pain"></article>
+        <p>La farine est une poudre obtenue en broyant et en moulant des céréales </p>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="far fa-eye"></i>
+      </article>
+      <article><h4>sous-titre</h4>
+        <img class="photoarticle" src="img/article3.jpg" alt="gateau"></article>
+        <p>La farine est une poudre obtenue en broyant et en moulant des céréales </p>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="far fa-eye"></i>
+      </article>
+    </div>
+  </section>
+
+
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
@@ -70,12 +107,28 @@
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 <footer>
-  <h3>Crédits</h3>
-  <ul>
-    <li><i class="fas fa-film"></i></li>
-    <li><i class="fas fa-futbol"></i></li>
-    <li><i class="fas fa-music"></i></li>
-    <li><i class="fas fa-plane-departure"></i></li>
- </ul>
+  <section>
+    <div>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+
+    </div>
+    <div>
+      <p></p>
+    </div>
+    <div>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
+  </section>
 </footer>
 </html>
