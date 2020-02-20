@@ -190,14 +190,14 @@ textarea {
         text-align: center;
       }
 
-    .fab.fa-twitter-square{
-      display: flex;
-      justify-content: flex-end;
-      } 
 
-
+    .fas.fa-users {
+      position: absolute;
+      right: 0;
+      top: 2%;
+      margin-right: 30px;
+    }
     .logoface{
-
       display: flex;
       justify-content: flex-end;
     }
