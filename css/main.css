@@ -207,6 +207,16 @@ textarea {
       max-width: 100%;
       height: auto;
     }
+  
+    .fab.fa-twitter-square {
+      margin-right: 25px;
+
+    }
+
+    .fab.fa-facebook{
+      margin-right: 25px;
+
+    }
 
   }
   @media (min-width:601px) and (max-width:1000px){ 
