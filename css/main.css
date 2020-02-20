@@ -221,6 +221,17 @@ textarea {
       text-align: center;
     }
 
+    .credit{
+      text-align: center;
+      color: black;
+    }
+
+    .creditlog{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+
+    }
   }
   @media (min-width:601px) and (max-width:1000px){ 
     .logo {
