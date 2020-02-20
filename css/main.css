@@ -111,12 +111,7 @@ textarea {
     .logo {
       height: 100px;
     }
-    .fas.fa-users {
-      position: absolute;
-      right: 0;
-      top: 2%;
-      margin-right: 30px;
-    }
+
     nav{
       width: 100%;
       margin: 0 auto;
@@ -200,16 +195,13 @@ textarea {
       justify-content: flex-end;
       } 
 
-    .fab.fa-facebook{
+
+    .logoface{
+
       display: flex;
       justify-content: flex-end;
-      
     }
 
-    .far.fa-eye{
-      display: flex;
-      justify-content: flex-end;
-    }
   }
   @media (min-width:601px) and (max-width:1000px){ 
     .logo {
