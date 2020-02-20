@@ -230,6 +230,8 @@ textarea {
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
+      margin-right: 40px;
+      margin-left: 40px;
 
     }
   }
