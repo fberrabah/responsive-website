@@ -209,13 +209,16 @@ textarea {
     }
   
     .fab.fa-twitter-square {
-      margin-right: 25px;
+      margin-right: 20px;
 
     }
 
     .fab.fa-facebook{
-      margin-right: 25px;
+      margin-right: 20px;
 
+    }
+    .presentation{
+      text-align: center;
     }
 
   }
