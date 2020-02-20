@@ -194,7 +194,7 @@ textarea {
     .fas.fa-users {
       position: absolute;
       right: 0;
-      top: 5%;
+      top: 1%;
       margin-right: 30px;
     }
 
@@ -237,11 +237,51 @@ textarea {
   }
   @media (min-width:601px) and (max-width:1000px){ 
     .logo {
-      height: 100px;
+      height: 200px;
     }
     p {
-      color: yellow;
+      color: orange;
     }
+    .fas.fa-bars{
+      display: none;
+      
+    }
+
+    .sous {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start; 
+      margin-right: 250px;
+    }
+    .imagefond{ 
+      color:white;
+      background-color:white;
+      background:url('https://image.freepik.com/photos-gratuite/vue-dessus-pain-francais-baguette-au-ble-espace-copie_23-2148432270.jpg') no-repeat top left ;
+      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: cover; /* version standardisée */
+    }   
+
+    .phototext{      
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    .presentation{
+      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .blok1{
+      display: flex;
+      align-items: center;
+
+
+    }
+
+
   }
   @media (min-width:1001px) and (max-width:6000px){
     .logo {
