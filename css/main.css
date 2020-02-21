@@ -97,7 +97,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  @media (min-width:0px) and (max-width:600px){
+  @media (min-width:1px) and (max-width:600px){
+    .imagefond{
+      
+    }
     .header{
       height: auto;
       background-color: orange;
@@ -239,6 +242,20 @@ textarea {
     .logo {
       height: 200px;
     }
+    .fas.fa-users{
+      display: none;
+
+    }
+
+    .tool {
+      margin-left: 400px;
+      width: 120px; 
+
+    }
+
+    .toolsearch{
+      width: px;
+    }
     p {
       color: orange;
     }
@@ -276,43 +293,87 @@ textarea {
 
     .blok1{
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 10%;
 
+    }
 
+    .colonne{
+      width: 45%;
+      height: auto;
+      border-style: solid;
+      border-color: rgb(red, green, blue);
+      text-align: center;
+      background-color: rgb(red, green, blue);
+      justify-content: space-around;
+    }
+    .colonne1{
+      width: 45%;
+      height: auto;
+      align-self: flex-end;
+      border-style: solid;
+      border-color: rgb(red, green, blue);
+      text-align: center;
+      background-color: rgb(red, green, blue);
+    }
+
+    .photoarticle{
+      max-width: 100%;
+      height: auto;
     }
 
 
   }
-  @media (min-width:1001px) and (max-width:6000px){
+  @media (min-width:1001px){
     .logo {
       height: 100px;
     }
     p 
     {color: blue;}
 
-  }
+    }
 
-  h1{
-    text-align: center;
+    h1{
+      text-align: center;
 
-  }
-  h2{
-    text-align: center;
+    }
+    h2{
+      text-align: center;
 
-  }
-
-  .phototext {
-    margin-top: 10px;
-    height: 10  0%;
-    width: 100%;
-  }
-
-  .boutton {
-    display: none;
-
-  }
+    }
+    .imagefond{ 
+      color:white;
+      background-color:white;
+      background:url('https://image.freepik.com/photos-gratuite/vue-dessus-pain-francais-baguette-au-ble-espace-copie_23-2148432270.jpg') no-repeat top left ;
+      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: cover; /* version standardisée */
+    }   
 
 
+    .phototext {
+      margin-top: 10px;
+      height: 10  0%;
+      width: 100%;
+    }
+
+    .boutton {
+      display: none;
+
+    }
+    .credit{
+      text-align: center;
+      color: black;
+    }
+
+    .creditlog{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin-right: 40px;
+      margin-left: 40px;
+    } 
+      
 /* ==========================================================================
    Helper classes
    ========================================================================== */
